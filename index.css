@@ -1,0 +1,34 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px; /* or use other units like em, rem, or % */
+    border: 1px solid  rgb(245, 8, 8);
+}
+.imag{
+    width:100px;
+    
+}
+.nav-item >ul{
+  list-style-type: none;
+  display:flex;
+
+}
+ .nav-item>ul>li{
+    padding: 10;
+   margin: auto;
+ }
+ .card{
+    width: 200px;
+    border:1px solid black;
+     padding:10px;
+    margin:10px;
+ }
+ .card>img{
+  width: 200px;
+
+ }
+.restrauntcard{
+  display: flex;
+  flex-wrap: wrap;
+}
+
