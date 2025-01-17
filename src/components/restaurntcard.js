@@ -1,5 +1,5 @@
 const RestrauntCard = ({ id,name, cloudinaryImageId, rating }) => {
-  const imageUrl = `https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,h_108/play_ip0jfp/${cloudinaryImageId}`;
+  const imageUrl = `https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/${cloudinaryImageId}`;
   
   return (
     <div className="card">
